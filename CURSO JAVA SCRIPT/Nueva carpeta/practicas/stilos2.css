@@ -1,0 +1,24 @@
+figure{
+	 margin: 0;
+	 display: inline-block;
+	 border: 1px solid red;
+	 position: relative;
+	 overflow: hidden;
+}
+
+figcaption{
+	color: yellow;
+	transition: all .8s;
+
+	background: rgba(216,9,95,5);
+	position: absolute;
+	left: 0px;
+	bottom: -150px;
+	width: 90%;
+	padding: 3%;
+
+}
+
+figure:hover figcaption{
+	bottom: 0px;
+	}

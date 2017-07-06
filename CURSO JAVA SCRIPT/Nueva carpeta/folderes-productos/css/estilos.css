@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin: 0;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #111;
+}
+
+h2 {	
+	
+	color:white;
+	text-align: center;
+	font-family: "cambria";
+}
+
+ul li img{
+	border-radius: 6px;
+	float: left;
+	opacity: 1;
+	width: 250px;
+	-webkit-transition:all .6s ease;
+}
+
+ul li img:hover{
+	opacity: 1;
+	border-radius: 2%;
+}
+
+
+li img:hover{
+	border: 5px;
+	background:#08F298;
+	width: 100%;
+	transition: 1000ms;
+}
+figcaption:hover{
+	transition: 2s;
+	bottom: 160px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-family: Modern No.20;
+	bottom: 10px;
+}
+
+h1, .menu{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	background:#027250;
+	display: block;	
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.menu{
+	background: #068E8A;
+	transition: 1.5s;
+}
+
+.fixed{
+	font-size: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #AA70B9;
+	padding: 15px;
+}
+
+
+.galeria {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.galeria_item {
+	width: 80%;
+	cursor: pointer;
+}
+
+@media (min-width:480px) {
+	.galeria_item{
+		width: 70%;
+		margin: 5px;
+		padding: 5px;
+	}
+
+}
+
+@media (min-width:568px) {
+	.galeria_item{
+		width: 40%;
+		margin: 10px;
+	}
+}
+@media (min-width:1024px) {
+	.galeria_item{
+		width: 20%;
+		margin: 15px;
+	}
+}
+
+
+
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 30%;
+	z-index: 2000;
+}
+
+.social ul{
+	list-style: none;
+
+}
+.social ul li a{
+	display: inline-block;
+	color: white;
+	background: black;
+	padding: 10px 15px;
+	text-decoration: none;
+	.webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook { background:#0A7CA9  }
+.social ul li .icon-whatsapp { background:green  }
+.social ul li .icon-mail { background:#4F5043}
+.social ul li .icon-undo2 { background:#C1586F}
+.social ul li .icon-home { background:#078465}
+
+.social ul li a:hover{
+	padding: 10px 35px;
+	background: white;
+	color: black;
+}
+

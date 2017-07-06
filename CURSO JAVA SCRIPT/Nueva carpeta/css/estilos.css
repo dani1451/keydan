@@ -1,0 +1,43 @@
+*{
+
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+ 
+body{
+	margin:0;
+	font-family: cambria;
+	padding-bottom: 100em;
+}
+
+h1, .menu{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	background:#027250;
+
+	
+}
+h1 img{
+	width: 100px;
+	background: black;
+	border-radius: 30%;
+
+}
+.menu{
+	background: green;
+	transition: 3s;
+}
+
+.fixed{
+	font-size: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: red;
+	padding: 15px;
+}

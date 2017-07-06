@@ -1,0 +1,28 @@
+
+.acordeon input {
+
+}
+
+.acordeon_titulo{
+	display: block;
+	padding: 15px;
+	background: crimson;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid blue;
+}
+.acordeon_titulo:hover {
+	background: rgba(0,0,0,.5);
+}
+.acordeon_contenido {
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+.acorderon input:checked ~ .acordeon_contenido{
+	height: auto;
+	margin: 25px 0;
+
+}
